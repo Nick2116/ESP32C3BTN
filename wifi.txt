@@ -1,0 +1,10 @@
+SSID
+KEY
+
+FORMAT AS FOLLOWS
+LINE 1: SSID
+LINE 2: KEY
+
+EXAMPLE:
+WiFi34
+ordinary password
