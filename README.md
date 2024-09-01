@@ -17,7 +17,8 @@ Any NPN BJT should be fine, I used a BC547, but if you use a transistor with les
 C1 was chosen to help with the stability of the 3v3 line on the ESP32 (you do not need to spec it as large, it was just what I used), as it has a known issue of "browning out" because the linear regulator and onboard filtering cant make up for the surge needed to connect to WiFI.
 
 
-![schem](https://github.com/user-attachments/assets/d9d37079-5a83-46af-bcd6-d287a2266442)
+![schem](https://github.com/user-attachments/assets/5748f1a6-c608-4a47-901a-20ce588e5fe2)
+
 
 
 If you ARE using the same board
