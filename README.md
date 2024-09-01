@@ -62,3 +62,6 @@ Press F5 on main.py and wait for it to connect, watch the serial monitor at the 
   If you cannot access it from the same network, reboot the ESP32
   
 You are good to go!
+
+
+Made with heavy collaboration from [rare1k](https://github.com/uhidontkno) 
