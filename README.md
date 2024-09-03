@@ -14,7 +14,7 @@ You dont need to use the same LED shown in the schematic. If you use a Red or Gr
 
 Any NPN BJT should be fine, I used a BC547, but if you use a transistor with less Hfe, lower R2 to fit, as a precaution.
 
-C1 was chosen to help with the stability of the 3v3 line on the ESP32 (you do not need to spec it as large, it was just what I used), as it has a known issue of "browning out" because the linear regulator and onboard filtering cant make up for the surge needed to connect to WiFI.
+C1 was chosen to help with the stability of the 3v3 line on the ESP32 (you do not need to spec it as large.), as it has a known issue of "browning out" because the linear regulator and onboard filtering cant make up for the surge needed to connect to WiFI.
 
 
 ![schem](https://github.com/user-attachments/assets/5748f1a6-c608-4a47-901a-20ce588e5fe2)
