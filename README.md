@@ -40,7 +40,7 @@ and
 
 `esptool.py --port /dev/ttyACM0  write_flash 0x0000 v1.2.bin` *Flashes Firmware.*
 
-*Once finished, you may delete the files. `cd.. && rm -r /ESP32C3BTN*
+*Once finished, you may delete the files. `cd.. && rm -r /ESP32C3BTN`*
 
 Access the board from Thonny or your favorite IDE
 
