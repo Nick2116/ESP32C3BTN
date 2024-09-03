@@ -43,7 +43,8 @@ Access the board from Thonny or your favorite IDE
 
 IN WIFI.TXT, ADD YOUR WIFI CREDENTIALS
 
-Press F5 on main.py and wait for it to connect, watch the serial monitor at the bottom of the screen for its DHCP-Assigned IP
+Press F5 on main.py and wait for it to connect, watch the serial monitor at the bottom of the screen for its DHCP-Assigned IP, or you can look at the admin panel of your router
+
 
   If you cannot access it from the same network, reboot the ESP32
   
@@ -60,7 +61,7 @@ Copy them into the ESP32 via Thonny or your favorite IDE
 
 IN WIFI.TXT, ADD YOUR WIFI CREDENTIALS
 
-Press F5 on main.py and wait for it to connect, watch the serial monitor at the bottom of the screen for its DHCP-Assigned IP
+Press F5 on main.py and wait for it to connect, watch the serial monitor at the bottom of the screen for its DHCP-Assigned IP, or you can look at the admin panel of your router
 
   If you cannot access it from the same network, reboot the ESP32
   
@@ -74,8 +75,8 @@ Made with heavy collaboration from [rare1k](https://github.com/uhidontkno)
 
 
 
-#My personal implementation of the system
+# My personal implementation of the system
 
-![PXL_20240902_211550179](https://github.com/user-attachments/assets/5aacc56a-cf30-47df-ad13-6ffab5559cf7)
+[image.png](https://github.com/user-attachments/assets/5aacc56a-cf30-47df-ad13-6ffab5559cf7)
 
 It is what is in the schematic but condensed into someting as small as I can make it... Certianly isnt clean though!
