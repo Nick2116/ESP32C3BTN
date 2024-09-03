@@ -68,3 +68,14 @@ You are good to go!
 
 
 Made with heavy collaboration from [rare1k](https://github.com/uhidontkno) 
+
+
+
+
+
+
+#My personal implementation of the system
+
+![PXL_20240902_211550179](https://github.com/user-attachments/assets/5aacc56a-cf30-47df-ad13-6ffab5559cf7)
+
+It is what is in the schematic but condensed into someting as small as I can make it... Certianly isnt clean though!
