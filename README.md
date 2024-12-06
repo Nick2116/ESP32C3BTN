@@ -2,7 +2,16 @@
 An ESP32C3 powered WiFi enabled power button
 
 I had made this because I wanted to be able to turn on my server without actually being there to press the power button.
-I bought a chinese ESP32C3 super mini and flashed it with LOLIN C3 MINI Micropython Firmware, it works most of the time 🥲.
+I bought a chinese ESP32C3 super mini and flashed it with LOLIN C3 MINI Micropython Firmware, it works most of the time :).
+
+
+# Features
+- Automatically connects to WiFi on boot
+- If it loses WiFI connection, it will attempt to reconnect for 60 seconds. While it is doing this, it will blink twice per second and if it cant reconnect within the alotted time it ill hold the pin high.
+- Uptime counter.
+- Low power usage and small footprint, universally compatible with motherboards.
+- Reliable (personally tested to >30D uptime, self-reported).
+- Does not use the internet by default, however it can be manually exposed through your router.
 
 
 Schematic
@@ -34,13 +43,13 @@ git clone this repo into the working directory:
 
 run
 
-`esptool.py --chip esp32c3 --port /dev/ttyACM0 erase_flash` *Cleans flash.*
+`esptool.py --chip esp32c3 --port /dev/ttyACM0 erase_flash` *Cleans flash. **You may need to change the serial port depending on how your system enumerated it.***
 
 and
 
 `esptool.py --port /dev/ttyACM0  write_flash 0x0000 v1.2.bin` *Flashes Firmware.*
 
-*Once finished, you may delete the files. `cd .. && rm -r /ESP32C3BTN`*
+*Once finished, you may delete the files. `cd .. && rm -r /ESP32C3BTN` CDs out of the directory and deletes the cloned repo.* 
 
 Access the board from Thonny or your favorite IDE
 
@@ -71,11 +80,14 @@ Press F5 on main.py and wait for it to connect, watch the serial monitor at the 
 You are good to go!
 
 
-Made with heavy collaboration from [rare1k](https://github.com/uhidontkno) 
 
 
 
+Made with heavy collaboration from [rare1k](https://gitlab.com/uhidontkno) 
 
+
+
+Contact me on Discord at `Nick2116.` if you want your own made by me. *I cannot guarantee that I will be taking orders at any given time, Cost is $20USD*
 
 
 # My personal implementation of the system
